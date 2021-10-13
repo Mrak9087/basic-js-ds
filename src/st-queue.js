@@ -28,8 +28,8 @@ module.exports = class Queue {
       this.qList.value = value;
       this.lastNode = this.qList;
     } else {
-      const tNode = new ListNode()
-      tNode.value = value;;
+      const tNode = new ListNode();
+      tNode.value = value;
       this.lastNode.next = tNode;
       this.lastNode = this.lastNode.next;
       
